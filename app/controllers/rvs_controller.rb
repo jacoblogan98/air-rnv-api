@@ -9,7 +9,7 @@ class RvsController < ApplicationController
         render json: rv, status: :ok
     end
 
-    
+
 
     private
     
@@ -18,6 +18,6 @@ class RvsController < ApplicationController
     end
 
     def rv_params
-        params.permit(:name, :occupancy, :location, :year, :description. :length, :air_conditioned, :day_rate, :pet_friendly, :rv_class, :shower, :tv, :user_id )
+        params.permit(:name, :occupancy, :location, :year, :description, :length, :air_conditioned, :day_rate, :pet_friendly, :rv_class, :shower, :tv, :user_id )
     end
 end
