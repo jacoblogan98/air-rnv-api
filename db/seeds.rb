@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
 puts "Seeding the database..."
 rv1 = Rv.create(occupancy: 6, name: "PaulieG", location: "Phoenix", year: "2008", rv_class: "Class A", length: "29 feet", day_rate: 155, pet_friendly: true, air_conditioned: true, shower: true, tv: false, description: "This super quaint RV allows for freedom and comfort!")
 rv2 = Rv.create(occupancy: 4, name: "Franco", location: "Salt Lake City", year: "2005", rv_class: "Class C", length: "24 feet", day_rate: 110, pet_friendly: true, air_conditioned: true, shower: true, tv: false, description: "Comfy and Homey, enjoy all the amenities that home brings.")
