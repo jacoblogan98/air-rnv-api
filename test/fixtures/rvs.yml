@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  occupancy: 1
+  location: MyString
+  year: MyString
+  class: MyString
+  length: MyString
+  day_rate: 1
+  pet_friendly: false
+  air_conditioned: false
+  shower: false
+  tv: false
+  user_id: 1
+
+two:
+  occupancy: 1
+  location: MyString
+  year: MyString
+  class: MyString
+  length: MyString
+  day_rate: 1
+  pet_friendly: false
+  air_conditioned: false
+  shower: false
+  tv: false
+  user_id: 1
