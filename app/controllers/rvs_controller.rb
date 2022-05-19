@@ -3,4 +3,8 @@ class RvsController < ApplicationController
         rvs = Rv.all
         render json: rvs
     end
+
+    def show
+        
+    end
 end
