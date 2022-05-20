@@ -9,6 +9,11 @@ class RvsController < ApplicationController
         render json: rv, serializer: RvShowSerializer, status: :ok
     end
 
+    def create 
+        rv = Rv.create!(rv_params)
+        render json: rv, status: :created
+    end
+
 
 
     private
