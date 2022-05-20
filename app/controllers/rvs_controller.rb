@@ -6,7 +6,7 @@ class RvsController < ApplicationController
 
     def show
         rv = find_rv
-        render json: rv, status: :ok
+        render json: rv, serializer: RvShowSerializer, status: :ok
     end
 
 
