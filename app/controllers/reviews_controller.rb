@@ -19,7 +19,7 @@ class ReviewsController < ApplicationController
         review = Review.find(params[:id])
         review.destroy
         render json: {}, status: :ok
-        head :no_content
+        # head :no_content, status: :ok
     end
     private
 
